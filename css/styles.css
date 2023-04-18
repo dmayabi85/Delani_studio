@@ -101,3 +101,11 @@
             padding-top: 10%;
             padding-bottom: 10%;
           }
+          .what_we_do{
+            font-family: 'Century Gothic', serif;
+              text-align: center;
+              padding-top: 40px;
+             font-family: 'Century Gothic', serif;
+            }
+            .what_we_do .headings{
+              padding-bottom: 38px;
