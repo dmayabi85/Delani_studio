@@ -6,9 +6,9 @@ $(document).ready(function(){
   $(document).ready(function() {
     $('.image-text-container').hover(function() {
       $(this).find('img').hide();
-      $(this).find('.text').show();
+
     }, function() {
-      $(this).find('.text').hide();
+    
       $(this).find('img').show();
     });
   });
