@@ -241,3 +241,35 @@
                 margin-right: 10%; 
               }
             }
+            .container {
+              position: relative;
+              text-align: center;
+           
+            }
+            .centered {
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+            }
+            .centered-bottom {
+              position: absolute;
+              top: 90%;
+              left: 50%;
+              transform: translate(-90%, -10%);
+            }
+            div.transbox {
+              margin: 30px;
+              opacity: 0.5;
+              color: #ffffff;
+          
+              padding: 50px;
+            }
+            div.transbox p {
+              margin: 5%;
+              font-weight: bold;
+              color: #ffffff;
+            }
+            .text {
+              display: none;
+            }
